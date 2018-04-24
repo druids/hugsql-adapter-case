@@ -12,7 +12,7 @@ Leiningen/Boot
 --------------
 
 ```clojure
-[hugsql-adapter-case "0.0.0"]
+[hugsql-adapter-case "0.1.0"]
 ```
 
 

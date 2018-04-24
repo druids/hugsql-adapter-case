@@ -1,4 +1,4 @@
-(defproject hugsql-adapter-case "0.0.0"
+(defproject hugsql-adapter-case "0.1.0"
   :description "A HugSQL adapter that converts name of SQL columns"
   :url "https://github.com/druids/hugsql-adapter-case"
   :license {:name "MIT License"
