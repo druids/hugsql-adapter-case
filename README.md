@@ -32,6 +32,12 @@ Simple usage:
 
 Now all you HugSQL queries should return snake-cased column names.
 
+Case adapters:
+
+  * kebab-adapter - converts to `kebab-case`
+  * snake-adapter - converts to `snake_case`
+  * camel-adapter - converts to `camelCase`
+
 
 Contribution
 ------------
