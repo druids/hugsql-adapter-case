@@ -3,7 +3,7 @@ HugSQL Adapter Case
 
 This is a [HugSQL](https://www.hugsql.org) adapter that converts SQL columns into required case (e.g. snake-case).
 
-
+[![CircleCI](https://circleci.com/gh/druids/hugsql-adapter-case.svg?style=svg)](https://circleci.com/gh/druids/hugsql-adapter-case)
 [![Dependencies Status](https://jarkeeper.com/druids/hugsql-adapter-case/status.png)](https://jarkeeper.com/druids/hugsql-adapter-case)
 [![License](https://img.shields.io/badge/MIT-Clause-blue.svg)](https://opensource.org/licenses/MIT)
 
