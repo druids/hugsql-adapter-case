@@ -10,6 +10,5 @@
   :profiles {:dev {:plugins [[lein-cloverage "1.0.10"]
                              [lein-kibit "0.1.6"]
                              [jonase/eastwood "0.2.5"]]
-                   :eastwood {:exclude-linters [:constant-test]} ;; due false positive alert in if-let* macro
 
                    :dependencies [[org.clojure/clojure "1.9.0"]]}})
