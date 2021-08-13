@@ -1,8 +1,7 @@
 (ns hugsql-adapter-case.adapters
   (:require
     [camel-snake-kebab.core :refer [->kebab-case ->snake_case ->camelCase]]
-    [hugsql.adapter :as adapter]
-    [hugsql.adapter.clojure-java-jdbc :refer [hugsql-adapter-clojure-java-jdbc]]))
+    [hugsql.adapter :as adapter]))
 
 
 (deftype CaseAdapter [case-fn jdbc-adapter]
@@ -33,15 +32,15 @@
 
 
 (defn kebab-adapter
-  []
-  (->CaseAdapter ->kebab-case (hugsql-adapter-clojure-java-jdbc)))
+  [jdbc-adapter]
+  (->CaseAdapter ->kebab-case jdbc-adapter))
 
 
 (defn snake-adapter
-  []
-  (->CaseAdapter ->snake_case (hugsql-adapter-clojure-java-jdbc)))
+  [jdbc-adapter]
+  (->CaseAdapter ->snake_case jdbc-adapter))
 
 
 (defn camel-adapter
-  []
-  (->CaseAdapter ->camelCase (hugsql-adapter-clojure-java-jdbc)))
+  [jdbc-adapter]
+  (->CaseAdapter ->camelCase jdbc-adapter))
